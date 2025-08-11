@@ -1,0 +1,78 @@
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    
+}
+
+.colours_a {
+    border: 2px solid;
+    padding: 0px 10px 20px 10px;
+    overflow: auto;
+}
+.colours {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.colours > div {
+  flex: 1;
+  text-align: center;
+  border: 2px solid black;
+}
+
+.Home_c {
+    background-color: #3b9cfe;
+}
+
+.Mugs_c {
+    background-color: lightcoral;
+}
+
+.bowls_c {
+    background-color: darkseagreen;
+}
+
+.glazes_c {
+    background-color: mediumpurple;
+}
+
+.ch2 {
+    padding-top: none;
+
+}
+
+.fonts_a {
+    border: 2px solid;
+    padding: 0px 10px 20px 10px;
+    margin-top:10px;
+}
+
+
+.font1 {
+    font-family:'Courier New', Courier, monospace;
+}
+
+.b_font1 {
+    font-family: Courier;
+}
+
+.b_font2 {
+    font-family: monospace;
+}
+
+
+.t_dec {
+    border: 2px solid;
+    padding: 0px 10px 20px 10px;
+    margin-top:10px;
+    text-align: center;
+}
+
+.h3_dec {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: clamp(20px, 4vw, 60px);
+    text-shadow: 3px 5px #3b9cfe;
+    text-align: center;
+    margin: 30px;
+}
